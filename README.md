@@ -1,4 +1,4 @@
-# PHCustomToastMasseg
+# CustomToastMasseg
 
 This project provides a view for android apps that implements Toast view.
 
@@ -20,7 +20,7 @@ allprojects {
   
 ```
 dependencies {
-	         implementation 'com.github.pouriaHemmati:PHCustomToastMasseg:1.0.0'
+	         implementation 'com.github.pouriaHemmati:CustomToastMasseg:1.0.0'
 	}
   ```
   If you use maven, add this
@@ -37,7 +37,7 @@ dependencies {
 
 	<dependency>
 	    <groupId>com.github.pouriaHemmati</groupId>
-	    <artifactId>PHCustomToastMasseg</artifactId>
+	    <artifactId>CustomToastMasseg</artifactId>
 	    <version>1.0.0</version>
 	</dependency>
 
@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	        PHCustomToastMasseg.showToastMessage(this,"Hello World" , getDrawable(R.drawable.ic_android_black_24dp) );
+	        CustomToastMasseg.showToastMessage(this,"Hello World" , getDrawable(R.drawable.ic_android_black_24dp) );
 	}
 }
 ```
