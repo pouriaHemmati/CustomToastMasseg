@@ -1,4 +1,6 @@
-# CustomToastMasseg
+# CustomToastMasseg [![](https://jitpack.io/v/pouriaHemmati/CustomToastMasseg.svg)](https://jitpack.io/#pouriaHemmati/CustomToastMasseg)
+
+
 
 This project provides a view for android apps that implements Toast view.
 
